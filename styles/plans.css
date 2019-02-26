@@ -1,0 +1,43 @@
+#plans{
+    background-color: #fff;
+    padding: 50px 0;
+    color: #000;
+}
+
+#plans-content{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.plan-items{
+    border: 1px solid #000; 
+    width: 275px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.plan-items:hover{
+    border-color: #B71C1C;
+}
+
+.plans-headings{
+    text-align: center;
+    border-bottom: 1px solid #B71C1C;
+    padding: 10px;
+    background-color: #B71C1C;
+    color: #fff;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.plans-description{
+    padding: 20px 50px;
+    
+    
+}
