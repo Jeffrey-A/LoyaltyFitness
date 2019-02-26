@@ -73,29 +73,19 @@ nav a:hover{
     margin-right: auto;
     background-color: #B71C1C;
     padding:  50px 20px;
+   
 }
+
 
 #about-content{
-    display: flex;
-}
-
-#about-text{
-    width: 50%;
-    padding-left: 10px;
     font-size: 1.3rem;
+    width: 80%;
+    margin: auto;
     
 }
 
-#about-img-div{
-    background-size: cover;
-    background-position: top;
-    width: 50%;
-    
-}
 
-#about-img-div img{
-    max-width: 100%;
-}
+
 
 
 
