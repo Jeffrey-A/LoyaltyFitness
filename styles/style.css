@@ -19,7 +19,14 @@ html{
     justify-content: center;
     align-items: center;
 }
+#welcome div{
+    text-align: center;
+}
 
+#welcome p{
+    font-size: 2rem;
+    text-shadow: 1px 1px 5px #000;
+}
 #title{
     color: #fff;
     text-shadow: 4px 1px 5px #000;
@@ -141,6 +148,23 @@ footer{
     border-top: 1px solid #B71C1C;
 }
 
-footer div{
-   
+#footer-div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 20px auto;
+}
+
+#footer-div ul{
+    list-style: none;
+    text-align: left;
+}
+
+#footer-div a{
+    color: #fff;
+
+}
+
+#footer-div a:hover{
+    color: #B71C1C;
 }
