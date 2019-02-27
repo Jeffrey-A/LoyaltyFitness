@@ -15,6 +15,14 @@ button{
     border-color: #000;
     display: none;
 }
+
+.closeMenu{
+    color: #B71C1C;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
 #welcome{
     height: 100vh;
     background-image: url("../img/welcome.jpeg");
@@ -84,7 +92,7 @@ nav a:hover{
     margin-left: auto;
     margin-right: auto;
     background-color: #B71C1C;
-    padding:  50px 20px;
+    padding:  100px 20px;
    
 }
 
@@ -125,13 +133,24 @@ nav a:hover{
  
 }
 
+
+
 #map-img-div{
     background-image: url("../img/location.JPG");
     background-size: cover;
     background-position: center;
 }
 
-#message-bt{
+#map-img-div a{
+    background-color: #B71C1C;
+    border-color: #B71C1C;
+}
+
+#map-img-div a:hover{
+    color: #000;
+}
+
+.message-bt{
     border: 1px solid #000;
     text-decoration: none;
     color: #fff;
@@ -142,7 +161,7 @@ nav a:hover{
     background-color: #000;
 }
 
-#message-bt:hover{
+.message-bt:hover{
     color: red;
 }
 footer{
@@ -175,7 +194,7 @@ footer{
 }
 
 
-@media (max-width:600px){
+@media (max-width:730px){
     header{
         flex-wrap: wrap;
     }
@@ -207,6 +226,14 @@ footer{
     button{
         display: block;
     }
+    
+
+    #about{
+        text-align: center;
+    }
+    
+}
+@media (max-width:600px){
     #title{
         font-size: 2.5rem;
     }
@@ -214,11 +241,10 @@ footer{
     #welcome p{
         font-size: 1.5rem;
     }
+}
 
-    #about{
-        text-align: center;
-    }
 
+@media (max-width:1070px){
     .location-item{
         margin-bottom: 20px;
     }
