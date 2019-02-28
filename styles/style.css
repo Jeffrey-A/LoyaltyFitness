@@ -17,7 +17,7 @@ button{
 }
 
 button:focus{
-    outline-color: #000;
+    outline-color: none;
 }
 
 .closeMenu{
@@ -77,7 +77,7 @@ nav a{
 }
 
 nav a:hover{
-    color:#B71C1C;
+    color:#000;
 }
 
 
@@ -213,15 +213,17 @@ footer{
         flex-direction: column;
         text-align: center;
         margin: auto;
+        padding-top: 30px;
         
     }
 
     nav li{
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         background-color: #B71C1C;
-        padding: 3px;
+        padding: 5px 0;
+        border-radius: 5px;
     }
 
     nav a{

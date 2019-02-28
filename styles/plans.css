@@ -21,11 +21,11 @@
     background-color: #000;
     color: #fff;
     margin-bottom: 30px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
 }
 
-.plan-items:hover{
-    border-color: #B71C1C;
-}
+
 
 .plans-headings{
     text-align: center;
@@ -37,3 +37,14 @@
     border-top-left-radius: 7px;
 }
 
+#yoga{
+    background-image: url("../img/services/yoga.jpeg");
+    background-size: cover;
+    background-position: top;
+}
+
+#calisthenics{
+    background-image: url("../img/services/calisthenics.jpeg");
+    background-size: cover;
+    background-position: top;
+}
