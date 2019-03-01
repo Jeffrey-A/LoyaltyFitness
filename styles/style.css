@@ -109,6 +109,13 @@ nav a:hover{
 }
 
 
+#about-text{
+    text-align: center;
+}
+#about-text p{
+    margin-bottom: 15px;
+}
+
 
 
 

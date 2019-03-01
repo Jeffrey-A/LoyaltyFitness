@@ -14,7 +14,7 @@
 }
 
 .plan-items{
-    border: 1px solid #000; 
+    /* border: 1px solid #000;  */
     width: 275px;
     height: 300px;
     border-radius: 10px;
@@ -47,4 +47,29 @@
     background-image: url("../img/services/calisthenics.jpeg");
     background-size: cover;
     background-position: top;
+}
+
+#p-trainig{
+    background-image: url("../img/services/p-training.jpeg");
+    background-size: cover;
+    background-position: top;
+}
+
+#sauna{
+    background-image: url("../img/services/sauna.jpeg");
+    background-size: cover;
+    background-position:top;
+
+}
+
+#locker{
+    background-image: url("../img/services/locker.jpg");
+    background-size: cover;
+    background-position:top;
+}
+
+#p-therapy{
+    background-image: url("../img/services/p-therapy.jpg");
+    background-size: cover;
+    background-position:top;
 }
