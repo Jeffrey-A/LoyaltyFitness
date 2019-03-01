@@ -1,2 +1,2 @@
 # LoyaltyFitness
-Gym website, in progress...
+Responsive landing page for fitness website
